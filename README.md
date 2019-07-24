@@ -3,8 +3,8 @@
 This git to keep some stuff : `select * from tips`, you will find :
 
 ## OpenLocationCode-plpgsql :
-pluscode for plpgsql, to get a code like : 8CXX5JMH+
-To get OLCode in PostgreSQL/Postgis with a lat/lng pair
+pluscode for plpgsql, to get a code like : 8CXX5JMH+  
+Create OLCode in PostgreSQL/Postgis with a lat/lng pair
 More about [OpenLocationCode](https://plus.codes/).
 
 ## RandomPlots :  
