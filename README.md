@@ -1,4 +1,4 @@
-# Welcome to the pg_postgis_script wiki!  
+# Welcome to the pg_postgis_script !  
   
 This git to keep some stuff : `select * from tips`, you will find :
 
