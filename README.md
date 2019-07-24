@@ -10,5 +10,4 @@ More about [OpenLocationCode](https://plus.codes/).
 ## RandomPlots :  
 _require postgis 2.3.0 with the excellent function --> `ST_GeneratePoints( g geometry , npoints numeric )`;_
 To create this in your db(Use Qgis to view):
-![RanddomPlots](http://cen-normandie.com/doc_images/random_plots.PNG =250x250)
-
+<img src="http://cen-normandie.com/doc_images/random_plots.PNG" alt="RandomPlots" width="240" height="240">
