@@ -17,4 +17,6 @@ To create this in your db(Use Qgis to view):
 `SELECT o.id  FROM table o WHERE NOT EXISTS (SELECT distinct(v.id) FROM table_2 v WHERE o.id = v.id)`,
 That reduces execution time from 1h30 to 39 sec. !
 
-
+## CleaningOverlappingPolygons _sql_ :  
+All is in the subtitle.  
+Use too ![ST_MakeValid(geometry input);](https://postgis.net/docs/ST_MakeValid.html) with it.
