@@ -11,3 +11,10 @@ More about [OpenLocationCode](https://plus.codes/).
 _require postgis 2.3.0 with the excellent function --> `ST_GeneratePoints( g geometry , npoints numeric )`;_  
 To create this in your db(Use Qgis to view):  
 <img src="http://cen-normandie.com/doc_images/random_plots.PNG" alt="RandomPlots" width="240" height="240">  
+  
+## Anti-Join _sql_ :  
+(Faster than NOT IN) :  
+`SELECT o.id  FROM table o WHERE NOT EXISTS (SELECT distinct(v.id) FROM table_2 v WHERE o.id = v.id)`,
+That reduces execution time from 1h30 to 39 sec. !
+
+
